@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo {
+    flex-direction: row;
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 350px;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    vertical-align: middle;margin:0px 50px
+}
+.wonderful {
+    background-image: url(wonder.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 400px;
+    padding: 100px;
+}
+.logo2 {
+    font-family: verdana;
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.top-link {
+    float: right;
+}
+
+header {
+    height: 500px;
+    background-image: url(alps-altitude-bird-s-eye-view-2013658.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.our {
+    background-image: url(our.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px;
+    padding: 100px;
+   
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #3693D6;
+    width: 100%;
+    height: 300px;
+}
+
+h2 {
+    color: white;
+    padding-top: 20px;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 150px;
+    padding-left: 150px;
+}
+
+.blue {
+    color: #3693D6;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image-grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 6px;
+    height: 800px;
+    width: 80%;
+}
+.grid-item {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.house-img {
+    grid-row: 1;
+    grid-column: 1;
+    background-image: url(cold-daylight-fjord-1586298.png);
+}
+.dog-img {
+    grid-row: 1;
+    grid-column: 2 / span 2;
+    background-image: url(adorable-animal-breed-434090.png);
+
+}
+.fly-img {
+    grid-row: 2 / span 2;
+    grid-column: 1 / span 2;
+    background-image: url(action-active-cold-2433353.png);
+
+}
+h3 {
+    color: white;
+    text-align: center;
+ 
+}
+.high {
+    color: white;
+    text-align: center;
+}
+h4 {
+    color: white;
+    text-align: center;
+}
+.man-img {
+    grid-row: 2;
+    grid-column: 3;
+    background-image: url(adventure-adventurer-altitude-2577274.png);
+}
+.cross-img {
+    grid-row: 3;
+    grid-column: 3;
+    background-image: url(beatiful-landscape-cold-colors-2832052.png);
+
+}
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+}
+footer {
+    background-image: url(logo2.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 200px;
+    height: 200px;
+    background-color: #3693D6;
+    width: 100%;
+}
+img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    
+}
+.contact-info {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 180px;
+    padding-right: 300px;
+    word-spacing: 80px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    background-image: url(group.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 150px;
+    margin-right: 80px;
+}
+.footer-grid {
+    display: inline-grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 600px;
+}
+.Location {
+    color: white;
+    justify-self: center;
+}
+.Email {
+    color: white;
+    justify-self: center;
+}
+.Phone {
+    color: white;
+    justify-self: center;
+}
